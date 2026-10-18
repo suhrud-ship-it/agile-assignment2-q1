@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: agile-assignment2-compose
+    ports:
+      - "5002:5000"
+    restart: unless-stopped
